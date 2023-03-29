@@ -41,7 +41,7 @@ func main() {
 	}
 	bar.Finish()
 
-	bar = progress.New(100, append(opts, progress.WithFiller("-->"))...)
+	bar = progress.New(100, append(opts, progress.WithFiller(" >"))...)
 	for i := 0; i < 100; i++ {
 		time.Sleep(time.Second / 50)
 		bar.Done(1)
