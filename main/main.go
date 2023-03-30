@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"MaricoHan/go-progress-bar"
+	"github.com/MaricoHan/go-progress-bar"
 )
 
 func main() {

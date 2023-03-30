@@ -1,3 +1,3 @@
-module MaricoHan/go-progress-bar
+module github.com/MaricoHan/go-progress-bar
 
 go 1.20
