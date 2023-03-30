@@ -57,7 +57,6 @@ func (b *Bar) Done(i int64) {
 
 // Finish 完成最后进度条
 func (b *Bar) Finish() {
-	b.current = b.total
 	fmt.Println(b.getProgressString())
 }
 
